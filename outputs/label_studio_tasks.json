@@ -1,0 +1,602 @@
+[
+  {
+    "data": {
+      "episode_id": 0,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000000.npz"
+    },
+    "meta": {
+      "num_original_steps": 143,
+      "num_valid_aligned_steps": 143
+    }
+  },
+  {
+    "data": {
+      "episode_id": 1,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000001.npz"
+    },
+    "meta": {
+      "num_original_steps": 148,
+      "num_valid_aligned_steps": 148
+    }
+  },
+  {
+    "data": {
+      "episode_id": 2,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000002.npz"
+    },
+    "meta": {
+      "num_original_steps": 141,
+      "num_valid_aligned_steps": 141
+    }
+  },
+  {
+    "data": {
+      "episode_id": 3,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000003.npz"
+    },
+    "meta": {
+      "num_original_steps": 130,
+      "num_valid_aligned_steps": 130
+    }
+  },
+  {
+    "data": {
+      "episode_id": 4,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000004.npz"
+    },
+    "meta": {
+      "num_original_steps": 132,
+      "num_valid_aligned_steps": 132
+    }
+  },
+  {
+    "data": {
+      "episode_id": 5,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000005.npz"
+    },
+    "meta": {
+      "num_original_steps": 132,
+      "num_valid_aligned_steps": 132
+    }
+  },
+  {
+    "data": {
+      "episode_id": 6,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000006.npz"
+    },
+    "meta": {
+      "num_original_steps": 155,
+      "num_valid_aligned_steps": 155
+    }
+  },
+  {
+    "data": {
+      "episode_id": 7,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000007.npz"
+    },
+    "meta": {
+      "num_original_steps": 175,
+      "num_valid_aligned_steps": 175
+    }
+  },
+  {
+    "data": {
+      "episode_id": 8,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000008.npz"
+    },
+    "meta": {
+      "num_original_steps": 152,
+      "num_valid_aligned_steps": 152
+    }
+  },
+  {
+    "data": {
+      "episode_id": 9,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000009.npz"
+    },
+    "meta": {
+      "num_original_steps": 124,
+      "num_valid_aligned_steps": 124
+    }
+  },
+  {
+    "data": {
+      "episode_id": 10,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000010.npz"
+    },
+    "meta": {
+      "num_original_steps": 143,
+      "num_valid_aligned_steps": 143
+    }
+  },
+  {
+    "data": {
+      "episode_id": 11,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000011.npz"
+    },
+    "meta": {
+      "num_original_steps": 164,
+      "num_valid_aligned_steps": 164
+    }
+  },
+  {
+    "data": {
+      "episode_id": 12,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000012.npz"
+    },
+    "meta": {
+      "num_original_steps": 152,
+      "num_valid_aligned_steps": 152
+    }
+  },
+  {
+    "data": {
+      "episode_id": 13,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000013.npz"
+    },
+    "meta": {
+      "num_original_steps": 151,
+      "num_valid_aligned_steps": 151
+    }
+  },
+  {
+    "data": {
+      "episode_id": 14,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000014.npz"
+    },
+    "meta": {
+      "num_original_steps": 132,
+      "num_valid_aligned_steps": 132
+    }
+  },
+  {
+    "data": {
+      "episode_id": 15,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000015.npz"
+    },
+    "meta": {
+      "num_original_steps": 115,
+      "num_valid_aligned_steps": 115
+    }
+  },
+  {
+    "data": {
+      "episode_id": 16,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000016.npz"
+    },
+    "meta": {
+      "num_original_steps": 162,
+      "num_valid_aligned_steps": 162
+    }
+  },
+  {
+    "data": {
+      "episode_id": 17,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000017.npz"
+    },
+    "meta": {
+      "num_original_steps": 161,
+      "num_valid_aligned_steps": 161
+    }
+  },
+  {
+    "data": {
+      "episode_id": 18,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000018.npz"
+    },
+    "meta": {
+      "num_original_steps": 153,
+      "num_valid_aligned_steps": 153
+    }
+  },
+  {
+    "data": {
+      "episode_id": 19,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000019.npz"
+    },
+    "meta": {
+      "num_original_steps": 161,
+      "num_valid_aligned_steps": 161
+    }
+  },
+  {
+    "data": {
+      "episode_id": 20,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000020.npz"
+    },
+    "meta": {
+      "num_original_steps": 156,
+      "num_valid_aligned_steps": 156
+    }
+  },
+  {
+    "data": {
+      "episode_id": 21,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000021.npz"
+    },
+    "meta": {
+      "num_original_steps": 167,
+      "num_valid_aligned_steps": 167
+    }
+  },
+  {
+    "data": {
+      "episode_id": 22,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000022.npz"
+    },
+    "meta": {
+      "num_original_steps": 136,
+      "num_valid_aligned_steps": 136
+    }
+  },
+  {
+    "data": {
+      "episode_id": 23,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000023.npz"
+    },
+    "meta": {
+      "num_original_steps": 130,
+      "num_valid_aligned_steps": 130
+    }
+  },
+  {
+    "data": {
+      "episode_id": 24,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000024.npz"
+    },
+    "meta": {
+      "num_original_steps": 126,
+      "num_valid_aligned_steps": 126
+    }
+  },
+  {
+    "data": {
+      "episode_id": 25,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000025.npz"
+    },
+    "meta": {
+      "num_original_steps": 136,
+      "num_valid_aligned_steps": 136
+    }
+  },
+  {
+    "data": {
+      "episode_id": 26,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000026.npz"
+    },
+    "meta": {
+      "num_original_steps": 137,
+      "num_valid_aligned_steps": 137
+    }
+  },
+  {
+    "data": {
+      "episode_id": 27,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000027.npz"
+    },
+    "meta": {
+      "num_original_steps": 159,
+      "num_valid_aligned_steps": 159
+    }
+  },
+  {
+    "data": {
+      "episode_id": 28,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000028.npz"
+    },
+    "meta": {
+      "num_original_steps": 129,
+      "num_valid_aligned_steps": 129
+    }
+  },
+  {
+    "data": {
+      "episode_id": 29,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000029.npz"
+    },
+    "meta": {
+      "num_original_steps": 136,
+      "num_valid_aligned_steps": 136
+    }
+  },
+  {
+    "data": {
+      "episode_id": 30,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000030.npz"
+    },
+    "meta": {
+      "num_original_steps": 125,
+      "num_valid_aligned_steps": 125
+    }
+  },
+  {
+    "data": {
+      "episode_id": 31,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000031.npz"
+    },
+    "meta": {
+      "num_original_steps": 145,
+      "num_valid_aligned_steps": 145
+    }
+  },
+  {
+    "data": {
+      "episode_id": 32,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000032.npz"
+    },
+    "meta": {
+      "num_original_steps": 139,
+      "num_valid_aligned_steps": 139
+    }
+  },
+  {
+    "data": {
+      "episode_id": 33,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000033.npz"
+    },
+    "meta": {
+      "num_original_steps": 153,
+      "num_valid_aligned_steps": 153
+    }
+  },
+  {
+    "data": {
+      "episode_id": 34,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000034.npz"
+    },
+    "meta": {
+      "num_original_steps": 224,
+      "num_valid_aligned_steps": 224
+    }
+  },
+  {
+    "data": {
+      "episode_id": 35,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000035.npz"
+    },
+    "meta": {
+      "num_original_steps": 168,
+      "num_valid_aligned_steps": 168
+    }
+  },
+  {
+    "data": {
+      "episode_id": 36,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000036.npz"
+    },
+    "meta": {
+      "num_original_steps": 135,
+      "num_valid_aligned_steps": 135
+    }
+  },
+  {
+    "data": {
+      "episode_id": 37,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000037.npz"
+    },
+    "meta": {
+      "num_original_steps": 144,
+      "num_valid_aligned_steps": 144
+    }
+  },
+  {
+    "data": {
+      "episode_id": 38,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000038.npz"
+    },
+    "meta": {
+      "num_original_steps": 158,
+      "num_valid_aligned_steps": 158
+    }
+  },
+  {
+    "data": {
+      "episode_id": 39,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000039.npz"
+    },
+    "meta": {
+      "num_original_steps": 133,
+      "num_valid_aligned_steps": 133
+    }
+  },
+  {
+    "data": {
+      "episode_id": 40,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000040.npz"
+    },
+    "meta": {
+      "num_original_steps": 163,
+      "num_valid_aligned_steps": 163
+    }
+  },
+  {
+    "data": {
+      "episode_id": 41,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000041.npz"
+    },
+    "meta": {
+      "num_original_steps": 127,
+      "num_valid_aligned_steps": 127
+    }
+  },
+  {
+    "data": {
+      "episode_id": 42,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000042.npz"
+    },
+    "meta": {
+      "num_original_steps": 160,
+      "num_valid_aligned_steps": 160
+    }
+  },
+  {
+    "data": {
+      "episode_id": 43,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000043.npz"
+    },
+    "meta": {
+      "num_original_steps": 152,
+      "num_valid_aligned_steps": 152
+    }
+  },
+  {
+    "data": {
+      "episode_id": 44,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000044.npz"
+    },
+    "meta": {
+      "num_original_steps": 137,
+      "num_valid_aligned_steps": 137
+    }
+  },
+  {
+    "data": {
+      "episode_id": 45,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000045.npz"
+    },
+    "meta": {
+      "num_original_steps": 169,
+      "num_valid_aligned_steps": 169
+    }
+  },
+  {
+    "data": {
+      "episode_id": 46,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000046.npz"
+    },
+    "meta": {
+      "num_original_steps": 125,
+      "num_valid_aligned_steps": 125
+    }
+  },
+  {
+    "data": {
+      "episode_id": 47,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000047.npz"
+    },
+    "meta": {
+      "num_original_steps": 132,
+      "num_valid_aligned_steps": 132
+    }
+  },
+  {
+    "data": {
+      "episode_id": 48,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000048.npz"
+    },
+    "meta": {
+      "num_original_steps": 151,
+      "num_valid_aligned_steps": 151
+    }
+  },
+  {
+    "data": {
+      "episode_id": 49,
+      "repo_id": "lerobot/libero_object_image",
+      "wrist_image_key": "observation.images.wrist_image",
+      "array_path": "outputs/curated_arrays/episode_000049.npz"
+    },
+    "meta": {
+      "num_original_steps": 153,
+      "num_valid_aligned_steps": 153
+    }
+  }
+]

@@ -1,0 +1,29 @@
+repo_id: "lerobot/libero_object_image"
+
+# Leave keys null to auto-detect. The default wrist stream is set explicitly
+# because libero_object_image is expected to expose this key.
+state_key: null
+action_key: null
+timestamp_key: null
+wrist_image_key: "observation.images.wrist_image"
+
+# Set to null to audit/curate all episodes.
+max_episodes: 50
+
+# Teleoperation filters
+min_episode_len: 20
+max_joint_velocity: 20.0
+max_timestamp_gap_ratio: 3.0
+
+# Egocentric / wrist-camera filters. These are starter values; calibrate from plots.
+blur_threshold: 30.0
+exposure_threshold: 0.50
+frozen_frame_threshold: 0.5
+max_bad_frame_ratio: 0.25
+video_frame_stride: 5
+
+# Curation
+smooth_window: 5
+drop_bad_frames_with_mask: true
+
+output_dir: "outputs"

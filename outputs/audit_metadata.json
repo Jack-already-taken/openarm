@@ -1,0 +1,27 @@
+{
+  "repo_id": "lerobot/libero_object_image",
+  "num_frames": 66984,
+  "num_episodes": 454,
+  "audited_episodes": 50,
+  "keys": {
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image"
+  },
+  "video_reason_counts": {},
+  "thresholds": {
+    "min_episode_len": 20,
+    "max_joint_velocity": 20.0,
+    "max_timestamp_gap_ratio": 3.0,
+    "blur_threshold": 30.0,
+    "exposure_threshold": 0.5,
+    "frozen_frame_threshold": 0.5,
+    "max_bad_frame_ratio": 0.25,
+    "video_frame_stride": 5
+  }
+}

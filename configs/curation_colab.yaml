@@ -1,0 +1,28 @@
+repo_id: "lerobot/libero_object_image"
+
+state_key: null
+action_key: null
+timestamp_key: null
+wrist_image_key: "observation.images.wrist_image"
+
+# Start smaller in Colab. Change to null for full dataset.
+max_episodes: 50
+
+# Teleoperation filters
+min_episode_len: 20
+max_joint_velocity: 20.0
+max_timestamp_gap_ratio: 3.0
+
+# Wrist / egocentric video filters
+# These are starter thresholds. Use score plots to calibrate.
+blur_threshold: 30.0
+exposure_threshold: 0.50
+frozen_frame_threshold: 0.5
+max_bad_frame_ratio: 0.25
+video_frame_stride: 5
+
+# Curation
+smooth_window: 5
+drop_bad_frames_with_mask: true
+
+output_dir: "outputs"

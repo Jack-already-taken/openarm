@@ -1,0 +1,10 @@
+lerobot
+huggingface_hub
+torch
+numpy
+pandas
+opencv-python-headless
+matplotlib
+scipy
+tqdm
+pyyaml

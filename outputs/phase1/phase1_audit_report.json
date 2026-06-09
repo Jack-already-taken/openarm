@@ -1,0 +1,4110 @@
+[
+  {
+    "episode_id": 0,
+    "num_steps": 143,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 143,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.15244629979133606,
+        -0.10441737622022629,
+        0.09569861739873886,
+        3.0771288871765137,
+        -0.4224444627761841,
+        -0.7379405498504639,
+        0.027335533872246742,
+        -0.03989454731345177
+      ],
+      "state_max": [
+        0.08309982717037201,
+        0.26288676261901855,
+        0.3075486123561859,
+        3.1957435607910156,
+        0.13534311950206757,
+        0.039932068437337875,
+        0.03986775130033493,
+        -0.025692308321595192
+      ],
+      "state_mean": [
+        0.004993789829313755,
+        0.03828921541571617,
+        0.2246580570936203,
+        3.143657684326172,
+        -0.1342047154903412,
+        -0.3745090365409851,
+        0.03239632025361061,
+        -0.03148958832025528
+      ],
+      "state_std": [
+        0.05745252966880798,
+        0.14395034313201904,
+        0.06087274104356766,
+        0.03406859561800957,
+        0.18749301135540009,
+        0.26983848214149475,
+        0.005846220068633556,
+        0.0066588339395821095
+      ],
+      "median_dt": 0.09999993443489075,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.10769200737666908,
+        0.1009899196047951,
+        0.11174600052452137,
+        0.07569761010127983,
+        0.17498292333441415,
+        0.19873459218463152,
+        0.04106482681853944,
+        0.04077548324511838
+      ],
+      "max_abs_joint_velocity": 0.19873459218463152,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 15,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1099.5598174051847,
+          "exposure_score": 0.0240020751953125,
+          "frame_difference": null,
+          "dataset_index": 0
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1098.086666717194,
+          "exposure_score": 0.0327911376953125,
+          "frame_difference": 28.557607650756836,
+          "dataset_index": 10
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 732.8778369685169,
+          "exposure_score": 0.0191802978515625,
+          "frame_difference": 39.73335266113281,
+          "dataset_index": 20
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 579.1535286565777,
+          "exposure_score": 0.0101165771484375,
+          "frame_difference": 27.960098266601562,
+          "dataset_index": 30
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 525.8232725709677,
+          "exposure_score": 0.013427734375,
+          "frame_difference": 20.286401748657227,
+          "dataset_index": 40
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 513.0473283296451,
+          "exposure_score": 0.02838134765625,
+          "frame_difference": 31.85931968688965,
+          "dataset_index": 50
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 465.4492296555545,
+          "exposure_score": 0.033721923828125,
+          "frame_difference": 26.917007446289062,
+          "dataset_index": 60
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 607.5247455888893,
+          "exposure_score": 0.0214080810546875,
+          "frame_difference": 23.006052017211914,
+          "dataset_index": 70
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 943.0614203324076,
+          "exposure_score": 0.013397216796875,
+          "frame_difference": 32.296295166015625,
+          "dataset_index": 80
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 978.3691873401403,
+          "exposure_score": 0.0139923095703125,
+          "frame_difference": 27.026147842407227,
+          "dataset_index": 90
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 901.9740095210727,
+          "exposure_score": 0.0159912109375,
+          "frame_difference": 27.50189781188965,
+          "dataset_index": 100
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 830.3383155127522,
+          "exposure_score": 0.0170135498046875,
+          "frame_difference": 25.6312198638916,
+          "dataset_index": 110
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 911.3146855449304,
+          "exposure_score": 0.0255584716796875,
+          "frame_difference": 19.43674659729004,
+          "dataset_index": 120
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 852.5110567358788,
+          "exposure_score": 0.0473175048828125,
+          "frame_difference": 36.160770416259766,
+          "dataset_index": 130
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 889.208690404892,
+          "exposure_score": 0.0409088134765625,
+          "frame_difference": 31.70023536682129,
+          "dataset_index": 140
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 1,
+    "num_steps": 148,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 148,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.13173334300518036,
+        -0.24583660066127777,
+        0.11272747814655304,
+        3.1354281902313232,
+        -0.2508125305175781,
+        -0.10425497591495514,
+        0.016979219391942024,
+        -0.03982769697904587
+      ],
+      "state_max": [
+        0.043342847377061844,
+        0.23837994039058685,
+        0.34976115822792053,
+        3.244621753692627,
+        0.0003552753187250346,
+        0.4558754861354828,
+        0.039926446974277496,
+        -0.016545841470360756
+      ],
+      "state_mean": [
+        -0.040695685893297195,
+        -0.05216551944613457,
+        0.25219306349754333,
+        3.187546491622925,
+        -0.11065997183322906,
+        0.12646614015102386,
+        0.026836857199668884,
+        -0.026585251092910767
+      ],
+      "state_std": [
+        0.059116430580616,
+        0.1837632805109024,
+        0.07214121520519257,
+        0.027725206688046455,
+        0.06179146096110344,
+        0.18896859884262085,
+        0.01076569315046072,
+        0.011022551916539669
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.05581726986624705,
+        0.11264604624604076,
+        0.12398016355530124,
+        0.07092951037180177,
+        0.18885735453999256,
+        0.211664524881268,
+        0.04486166493813032,
+        0.04712988460529766
+      ],
+      "max_abs_joint_velocity": 0.211664524881268,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 15,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1166.7858390861657,
+          "exposure_score": 0.018157958984375,
+          "frame_difference": null,
+          "dataset_index": 143
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 959.724657609826,
+          "exposure_score": 0.01617431640625,
+          "frame_difference": 40.798091888427734,
+          "dataset_index": 153
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 715.8804049359169,
+          "exposure_score": 0.0148773193359375,
+          "frame_difference": 34.356380462646484,
+          "dataset_index": 163
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 663.7256753444672,
+          "exposure_score": 0.0186309814453125,
+          "frame_difference": 26.35040283203125,
+          "dataset_index": 173
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 525.212187230587,
+          "exposure_score": 0.0287628173828125,
+          "frame_difference": 22.98003578186035,
+          "dataset_index": 183
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 459.7502231427934,
+          "exposure_score": 0.023773193359375,
+          "frame_difference": 23.847570419311523,
+          "dataset_index": 193
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 414.26337337493896,
+          "exposure_score": 0.0312652587890625,
+          "frame_difference": 17.92734718322754,
+          "dataset_index": 203
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 614.4648919643369,
+          "exposure_score": 0.0232696533203125,
+          "frame_difference": 22.01361083984375,
+          "dataset_index": 213
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 669.8482353538275,
+          "exposure_score": 0.011383056640625,
+          "frame_difference": 20.91251564025879,
+          "dataset_index": 223
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 928.0275456905365,
+          "exposure_score": 0.00732421875,
+          "frame_difference": 22.808273315429688,
+          "dataset_index": 233
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 789.3846055855975,
+          "exposure_score": 0.006011962890625,
+          "frame_difference": 24.41229820251465,
+          "dataset_index": 243
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 617.0776763891336,
+          "exposure_score": 0.0062103271484375,
+          "frame_difference": 23.100271224975586,
+          "dataset_index": 253
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 469.7589124729857,
+          "exposure_score": 0.007080078125,
+          "frame_difference": 16.115814208984375,
+          "dataset_index": 263
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 580.7589269017335,
+          "exposure_score": 0.0121307373046875,
+          "frame_difference": 16.559362411499023,
+          "dataset_index": 273
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 745.7437539862003,
+          "exposure_score": 0.011566162109375,
+          "frame_difference": 23.11495018005371,
+          "dataset_index": 283
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 2,
+    "num_steps": 141,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 141,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.13837851583957672,
+        -0.25134792923927307,
+        0.11134006083011627,
+        3.111290454864502,
+        -0.3392047584056854,
+        -0.08817724138498306,
+        0.01718207076191902,
+        -0.03987700119614601
+      ],
+      "state_max": [
+        -0.0371294841170311,
+        0.26331254839897156,
+        0.3317231237888336,
+        3.251030683517456,
+        -0.0015986041398718953,
+        0.17276830971240997,
+        0.039836250245571136,
+        -0.016634700819849968
+      ],
+      "state_mean": [
+        -0.08853689581155777,
+        -0.06143791228532791,
+        0.2427758276462555,
+        3.1726694107055664,
+        -0.2441847175359726,
+        0.038014255464076996,
+        0.025585997849702835,
+        -0.025210537016391754
+      ],
+      "state_std": [
+        0.029142018407583237,
+        0.1856442093849182,
+        0.0732501968741417,
+        0.03739180043339729,
+        0.06186390668153763,
+        0.06502531468868256,
+        0.010418521240353584,
+        0.010804075747728348
+      ],
+      "median_dt": 0.09999993443489075,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.04806880766754881,
+        0.11169342557315608,
+        0.12001212955677944,
+        0.10213097713097713,
+        0.18588024995708483,
+        0.15398167788725176,
+        0.04485566721502992,
+        0.04713532229300578
+      ],
+      "max_abs_joint_velocity": 0.18588024995708483,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 15,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1151.5577942496166,
+          "exposure_score": 0.018951416015625,
+          "frame_difference": null,
+          "dataset_index": 291
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 839.7457441687584,
+          "exposure_score": 0.023162841796875,
+          "frame_difference": 39.24723815917969,
+          "dataset_index": 301
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 687.4605696999934,
+          "exposure_score": 0.0198822021484375,
+          "frame_difference": 30.09636878967285,
+          "dataset_index": 311
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 592.8111376166344,
+          "exposure_score": 0.0193328857421875,
+          "frame_difference": 23.172561645507812,
+          "dataset_index": 321
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 470.9234313815832,
+          "exposure_score": 0.035552978515625,
+          "frame_difference": 24.28545570373535,
+          "dataset_index": 331
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 443.9262573979795,
+          "exposure_score": 0.0174713134765625,
+          "frame_difference": 16.3485050201416,
+          "dataset_index": 341
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 440.0004962456878,
+          "exposure_score": 0.029144287109375,
+          "frame_difference": 15.213282585144043,
+          "dataset_index": 351
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 655.8629475252237,
+          "exposure_score": 0.0194854736328125,
+          "frame_difference": 20.349166870117188,
+          "dataset_index": 361
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 799.9594347616658,
+          "exposure_score": 0.0130767822265625,
+          "frame_difference": 23.566625595092773,
+          "dataset_index": 371
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 999.1748937219381,
+          "exposure_score": 0.0106201171875,
+          "frame_difference": 25.73539161682129,
+          "dataset_index": 381
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1114.4926598181482,
+          "exposure_score": 0.0150909423828125,
+          "frame_difference": 28.57770347595215,
+          "dataset_index": 391
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 925.3383876157459,
+          "exposure_score": 0.01336669921875,
+          "frame_difference": 30.423227310180664,
+          "dataset_index": 401
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 839.4292045084294,
+          "exposure_score": 0.012054443359375,
+          "frame_difference": 22.032445907592773,
+          "dataset_index": 411
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 799.712204686366,
+          "exposure_score": 0.028533935546875,
+          "frame_difference": 31.082712173461914,
+          "dataset_index": 421
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 823.3340436161961,
+          "exposure_score": 0.0384521484375,
+          "frame_difference": 36.29031753540039,
+          "dataset_index": 431
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 3,
+    "num_steps": 130,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 130,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.1557849496603012,
+        -0.1037372276186943,
+        0.008522653952240944,
+        3.015717029571533,
+        -0.6571032404899597,
+        -0.10863976180553436,
+        0.019519178196787834,
+        -0.039869360625743866
+      ],
+      "state_max": [
+        0.05235724523663521,
+        0.2555117607116699,
+        0.258038192987442,
+        3.1406760215759277,
+        0.0025310192722827196,
+        0.05149833485484123,
+        0.040291547775268555,
+        -0.022678334265947342
+      ],
+      "state_mean": [
+        -0.019792266190052032,
+        0.037279002368450165,
+        0.15303418040275574,
+        3.066436767578125,
+        -0.2924427092075348,
+        -0.04125749692320824,
+        0.03017243556678295,
+        -0.03190894424915314
+      ],
+      "state_std": [
+        0.053251076489686966,
+        0.1365552693605423,
+        0.07594271004199982,
+        0.03860652819275856,
+        0.2199598103761673,
+        0.047431886196136475,
+        0.009134936146438122,
+        0.007485826499760151
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.0964759805259751,
+        0.10252385391533231,
+        0.12085615189112896,
+        0.0788975514388575,
+        0.3289828958756029,
+        0.13056844025074385,
+        0.056378802034904515,
+        0.06917786862527717
+      ],
+      "max_abs_joint_velocity": 0.3289828958756029,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 13,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1119.753880871227,
+          "exposure_score": 0.016265869140625,
+          "frame_difference": null,
+          "dataset_index": 432
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1126.450459024869,
+          "exposure_score": 0.0152130126953125,
+          "frame_difference": 28.50453758239746,
+          "dataset_index": 442
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 861.2139799445868,
+          "exposure_score": 0.0106048583984375,
+          "frame_difference": 38.831787109375,
+          "dataset_index": 452
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 741.8458139987197,
+          "exposure_score": 0.0152740478515625,
+          "frame_difference": 28.7040958404541,
+          "dataset_index": 462
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 596.6015528105199,
+          "exposure_score": 0.0131072998046875,
+          "frame_difference": 30.0451717376709,
+          "dataset_index": 472
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 516.2768490684684,
+          "exposure_score": 0.017913818359375,
+          "frame_difference": 30.360498428344727,
+          "dataset_index": 482
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 468.3645506715402,
+          "exposure_score": 0.01068115234375,
+          "frame_difference": 20.861038208007812,
+          "dataset_index": 492
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 668.8155292028096,
+          "exposure_score": 0.0186920166015625,
+          "frame_difference": 21.52557945251465,
+          "dataset_index": 502
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 864.8493195911869,
+          "exposure_score": 0.0086212158203125,
+          "frame_difference": 27.026525497436523,
+          "dataset_index": 512
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 609.5039055047091,
+          "exposure_score": 0.012451171875,
+          "frame_difference": 28.277536392211914,
+          "dataset_index": 522
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 660.7577559342608,
+          "exposure_score": 0.016937255859375,
+          "frame_difference": 27.141489028930664,
+          "dataset_index": 532
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 849.9229091396555,
+          "exposure_score": 0.0412139892578125,
+          "frame_difference": 42.58399963378906,
+          "dataset_index": 542
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 963.65073900274,
+          "exposure_score": 0.0418548583984375,
+          "frame_difference": 32.1999397277832,
+          "dataset_index": 552
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 4,
+    "num_steps": 132,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 132,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.15581390261650085,
+        -0.1149241104722023,
+        0.06755515187978745,
+        3.0579721927642822,
+        -0.6354947090148926,
+        -0.08973708748817444,
+        0.013408485800027847,
+        -0.03989215940237045
+      ],
+      "state_max": [
+        0.06467123329639435,
+        0.2480883151292801,
+        0.2710731327533722,
+        3.158993721008301,
+        0.002764413133263588,
+        0.1926787793636322,
+        0.0399082712829113,
+        -0.019270284101366997
+      ],
+      "state_mean": [
+        -0.005308349616825581,
+        0.0066728307865560055,
+        0.1904066801071167,
+        3.112689733505249,
+        -0.3544843792915344,
+        0.07383415848016739,
+        0.026884447783231735,
+        -0.030004020780324936
+      ],
+      "state_std": [
+        0.06068717688322067,
+        0.13058476150035858,
+        0.06398852914571762,
+        0.03299897536635399,
+        0.25592508912086487,
+        0.0955013781785965,
+        0.01169663481414318,
+        0.008867778815329075
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.10461519204634862,
+        0.10936889048895163,
+        0.1070300132083389,
+        0.08343267497639642,
+        0.1557652647640846,
+        0.1317691246733678,
+        0.0484478860697324,
+        0.04142315157760972
+      ],
+      "max_abs_joint_velocity": 0.1557652647640846,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 14,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1105.8097302829847,
+          "exposure_score": 0.017791748046875,
+          "frame_difference": null,
+          "dataset_index": 562
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1155.6131278162356,
+          "exposure_score": 0.0200042724609375,
+          "frame_difference": 22.305526733398438,
+          "dataset_index": 572
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 870.1446037851274,
+          "exposure_score": 0.022216796875,
+          "frame_difference": 44.66810607910156,
+          "dataset_index": 582
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 591.5968114302959,
+          "exposure_score": 0.010772705078125,
+          "frame_difference": 37.28445816040039,
+          "dataset_index": 592
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 586.1629905700684,
+          "exposure_score": 0.014556884765625,
+          "frame_difference": 31.999719619750977,
+          "dataset_index": 602
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 504.3904760144651,
+          "exposure_score": 0.016387939453125,
+          "frame_difference": 20.818344116210938,
+          "dataset_index": 612
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 447.8489951041993,
+          "exposure_score": 0.016693115234375,
+          "frame_difference": 21.951187133789062,
+          "dataset_index": 622
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 511.3603033160325,
+          "exposure_score": 0.0301971435546875,
+          "frame_difference": 23.454198837280273,
+          "dataset_index": 632
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 655.7681882074103,
+          "exposure_score": 0.0287628173828125,
+          "frame_difference": 27.85758399963379,
+          "dataset_index": 642
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 918.279275521636,
+          "exposure_score": 0.0259552001953125,
+          "frame_difference": 29.09710121154785,
+          "dataset_index": 652
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 876.3064565621316,
+          "exposure_score": 0.0229644775390625,
+          "frame_difference": 25.49088478088379,
+          "dataset_index": 662
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 895.9778436087072,
+          "exposure_score": 0.025909423828125,
+          "frame_difference": 30.102163314819336,
+          "dataset_index": 672
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 898.0960062434897,
+          "exposure_score": 0.048980712890625,
+          "frame_difference": 42.88127136230469,
+          "dataset_index": 682
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 957.3295603801962,
+          "exposure_score": 0.039520263671875,
+          "frame_difference": 20.52012062072754,
+          "dataset_index": 692
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 5,
+    "num_steps": 132,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 132,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.1432173252105713,
+        -0.1389903873205185,
+        0.08556430041790009,
+        3.0823974609375,
+        -0.7313177585601807,
+        -0.09052514284849167,
+        0.013720997609198093,
+        -0.04033674672245979
+      ],
+      "state_max": [
+        0.04967837780714035,
+        0.26118066906929016,
+        0.3349967896938324,
+        3.1649487018585205,
+        0.004147040192037821,
+        0.659442663192749,
+        0.039907921105623245,
+        -0.013257840648293495
+      ],
+      "state_mean": [
+        0.006068511866033077,
+        0.014423387125134468,
+        0.21166209876537323,
+        3.1335034370422363,
+        -0.46031010150909424,
+        0.2373679280281067,
+        0.027487199753522873,
+        -0.02758125774562359
+      ],
+      "state_std": [
+        0.050790898501873016,
+        0.13957324624061584,
+        0.07646160572767258,
+        0.018021753057837486,
+        0.1927216798067093,
+        0.23740547895431519,
+        0.011610113084316254,
+        0.011735262349247932
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.08887311187431529,
+        0.10449404084252839,
+        0.12410131011134158,
+        0.0911351542085487,
+        0.1780276659863816,
+        0.2613015935837037,
+        0.04704155788808621,
+        0.04960038772858403
+      ],
+      "max_abs_joint_velocity": 0.2613015935837037,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 14,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1134.6133465690073,
+          "exposure_score": 0.0178375244140625,
+          "frame_difference": null,
+          "dataset_index": 694
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1178.0732581308112,
+          "exposure_score": 0.021026611328125,
+          "frame_difference": 31.448572158813477,
+          "dataset_index": 704
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 779.3525069020689,
+          "exposure_score": 0.0146484375,
+          "frame_difference": 40.24776077270508,
+          "dataset_index": 714
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 581.2788334451616,
+          "exposure_score": 0.0127716064453125,
+          "frame_difference": 31.00394630432129,
+          "dataset_index": 724
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 559.7060546539724,
+          "exposure_score": 0.0213623046875,
+          "frame_difference": 29.226675033569336,
+          "dataset_index": 734
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 517.0545462509617,
+          "exposure_score": 0.0633087158203125,
+          "frame_difference": 32.79241943359375,
+          "dataset_index": 744
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 527.2425518250093,
+          "exposure_score": 0.0413665771484375,
+          "frame_difference": 26.66300392150879,
+          "dataset_index": 754
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 613.7228744169697,
+          "exposure_score": 0.0252685546875,
+          "frame_difference": 26.562789916992188,
+          "dataset_index": 764
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 879.6504387424793,
+          "exposure_score": 0.0147857666015625,
+          "frame_difference": 26.762853622436523,
+          "dataset_index": 774
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 710.2720561539754,
+          "exposure_score": 0.010772705078125,
+          "frame_difference": 24.63509178161621,
+          "dataset_index": 784
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 421.04991266783327,
+          "exposure_score": 0.007781982421875,
+          "frame_difference": 18.86751365661621,
+          "dataset_index": 794
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 441.9614532729611,
+          "exposure_score": 0.0129241943359375,
+          "frame_difference": 15.2506103515625,
+          "dataset_index": 804
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 613.8471888487693,
+          "exposure_score": 0.0204620361328125,
+          "frame_difference": 21.869314193725586,
+          "dataset_index": 814
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 881.7376014289912,
+          "exposure_score": 0.0141754150390625,
+          "frame_difference": 29.9763126373291,
+          "dataset_index": 824
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 6,
+    "num_steps": 155,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 155,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14808060228824615,
+        -0.23768168687820435,
+        0.0554281510412693,
+        3.0588889122009277,
+        -0.36058565974235535,
+        -0.3505849540233612,
+        0.01982191391289234,
+        -0.03992408886551857
+      ],
+      "state_max": [
+        0.03737698495388031,
+        0.2632646858692169,
+        0.28761056065559387,
+        3.1794867515563965,
+        0.08975356817245483,
+        -0.011141768656671047,
+        0.03983795642852783,
+        -0.018623482435941696
+      ],
+      "state_mean": [
+        -0.05307183414697647,
+        -0.027274245396256447,
+        0.21420347690582275,
+        3.103192090988159,
+        -0.08439130336046219,
+        -0.15984998643398285,
+        0.028415197506546974,
+        -0.027959780767560005
+      ],
+      "state_std": [
+        0.05758192762732506,
+        0.19155053794384003,
+        0.06865143775939941,
+        0.03831970691680908,
+        0.11000314354896545,
+        0.08490866422653198,
+        0.009278640151023865,
+        0.009689610451459885
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.058484664342883574,
+        0.10788950890728413,
+        0.12072315953479944,
+        0.13109872398863223,
+        0.18434845368259933,
+        0.2065602424719262,
+        0.05409035686952832,
+        0.04724341117868928
+      ],
+      "max_abs_joint_velocity": 0.2065602424719262,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 16,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1042.3500892510638,
+          "exposure_score": 0.0233001708984375,
+          "frame_difference": null,
+          "dataset_index": 826
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 844.0852733915672,
+          "exposure_score": 0.0201416015625,
+          "frame_difference": 30.68975830078125,
+          "dataset_index": 836
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 661.685971673578,
+          "exposure_score": 0.0178985595703125,
+          "frame_difference": 32.377437591552734,
+          "dataset_index": 846
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 696.6924866975751,
+          "exposure_score": 0.023223876953125,
+          "frame_difference": 29.84895896911621,
+          "dataset_index": 856
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 537.8536834714469,
+          "exposure_score": 0.016021728515625,
+          "frame_difference": 34.4216194152832,
+          "dataset_index": 866
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 410.49021911411546,
+          "exposure_score": 0.0222930908203125,
+          "frame_difference": 21.254837036132812,
+          "dataset_index": 876
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 195.8435745255556,
+          "exposure_score": 0.00244140625,
+          "frame_difference": 22.99308204650879,
+          "dataset_index": 886
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 413.3301848338451,
+          "exposure_score": 0.0142364501953125,
+          "frame_difference": 15.959040641784668,
+          "dataset_index": 896
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 617.9413202085998,
+          "exposure_score": 0.0196533203125,
+          "frame_difference": 25.38930320739746,
+          "dataset_index": 906
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 774.176177740097,
+          "exposure_score": 0.0138397216796875,
+          "frame_difference": 27.47749900817871,
+          "dataset_index": 916
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1008.1717315763235,
+          "exposure_score": 0.010528564453125,
+          "frame_difference": 33.801944732666016,
+          "dataset_index": 926
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 846.8150914758444,
+          "exposure_score": 0.017608642578125,
+          "frame_difference": 32.202693939208984,
+          "dataset_index": 936
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 757.7275543212891,
+          "exposure_score": 0.0146636962890625,
+          "frame_difference": 31.02852439880371,
+          "dataset_index": 946
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 685.5809803148732,
+          "exposure_score": 0.0248565673828125,
+          "frame_difference": 24.29878807067871,
+          "dataset_index": 956
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 702.4854673109949,
+          "exposure_score": 0.03814697265625,
+          "frame_difference": 33.10926818847656,
+          "dataset_index": 966
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 916.6229775843676,
+          "exposure_score": 0.029327392578125,
+          "frame_difference": 33.62825012207031,
+          "dataset_index": 976
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 7,
+    "num_steps": 175,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 175,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14348933100700378,
+        -0.2372385412454605,
+        0.08624812960624695,
+        3.060025691986084,
+        -0.2623613774776459,
+        -0.6394250988960266,
+        0.0279958788305521,
+        -0.039827823638916016
+      ],
+      "state_max": [
+        0.06816185265779495,
+        0.2582331895828247,
+        0.32056090235710144,
+        3.249150276184082,
+        0.004686861764639616,
+        -0.08434554934501648,
+        0.039963576942682266,
+        -0.023309050127863884
+      ],
+      "state_mean": [
+        -0.021071141585707664,
+        0.0017112247878685594,
+        0.21865485608577728,
+        3.145653247833252,
+        -0.10325954854488373,
+        -0.4419664144515991,
+        0.03251250088214874,
+        -0.03064543381333351
+      ],
+      "state_std": [
+        0.05909515172243118,
+        0.1928606778383255,
+        0.06448007375001907,
+        0.05054327845573425,
+        0.06596933305263519,
+        0.13698171079158783,
+        0.005202066153287888,
+        0.006615232210606337
+      ],
+      "median_dt": 0.10000000521540642,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.06731257241936714,
+        0.11167985518458957,
+        0.11798411303858551,
+        0.11169682664568581,
+        0.17341100583646454,
+        0.1850165819489214,
+        0.049615158518703954,
+        0.04085464573945593
+      ],
+      "max_abs_joint_velocity": 0.1850165819489214,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 18,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1085.427250152221,
+          "exposure_score": 0.011199951171875,
+          "frame_difference": null,
+          "dataset_index": 981
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1087.5777144944295,
+          "exposure_score": 0.0147552490234375,
+          "frame_difference": 29.468862533569336,
+          "dataset_index": 991
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 840.792660418665,
+          "exposure_score": 0.020843505859375,
+          "frame_difference": 42.61953353881836,
+          "dataset_index": 1001
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 670.1691490672529,
+          "exposure_score": 0.0091552734375,
+          "frame_difference": 35.55647277832031,
+          "dataset_index": 1011
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 555.5693969726562,
+          "exposure_score": 0.010345458984375,
+          "frame_difference": 23.759984970092773,
+          "dataset_index": 1021
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 411.2359728505835,
+          "exposure_score": 0.0173797607421875,
+          "frame_difference": 21.537389755249023,
+          "dataset_index": 1031
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 264.2616788735613,
+          "exposure_score": 0.0097198486328125,
+          "frame_difference": 20.305435180664062,
+          "dataset_index": 1041
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 508.39269294939004,
+          "exposure_score": 0.01806640625,
+          "frame_difference": 14.07575511932373,
+          "dataset_index": 1051
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 660.0640721283853,
+          "exposure_score": 0.0139007568359375,
+          "frame_difference": 20.818679809570312,
+          "dataset_index": 1061
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 868.9938388234004,
+          "exposure_score": 0.0194091796875,
+          "frame_difference": 26.98712158203125,
+          "dataset_index": 1071
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1093.7799828664865,
+          "exposure_score": 0.0178070068359375,
+          "frame_difference": 31.808639526367188,
+          "dataset_index": 1081
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 911.1106185084209,
+          "exposure_score": 0.0170440673828125,
+          "frame_difference": 28.26548194885254,
+          "dataset_index": 1091
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 799.4956335609313,
+          "exposure_score": 0.0142669677734375,
+          "frame_difference": 25.124887466430664,
+          "dataset_index": 1101
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 818.66593170329,
+          "exposure_score": 0.0225067138671875,
+          "frame_difference": 21.54756736755371,
+          "dataset_index": 1111
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 822.6527571342885,
+          "exposure_score": 0.022369384765625,
+          "frame_difference": 8.822677612304688,
+          "dataset_index": 1121
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 908.4701236337423,
+          "exposure_score": 0.0294952392578125,
+          "frame_difference": 24.58951759338379,
+          "dataset_index": 1131
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 822.8571506885346,
+          "exposure_score": 0.04241943359375,
+          "frame_difference": 33.18117141723633,
+          "dataset_index": 1141
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 840.866885494208,
+          "exposure_score": 0.0474395751953125,
+          "frame_difference": 31.777978897094727,
+          "dataset_index": 1151
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 8,
+    "num_steps": 152,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 152,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14495420455932617,
+        -0.24682943522930145,
+        0.11344947665929794,
+        2.999846935272217,
+        -0.044072724878787994,
+        -0.40436992049217224,
+        0.01683773286640644,
+        -0.03984716162085533
+      ],
+      "state_max": [
+        0.012286691926419735,
+        0.26971545815467834,
+        0.34712377190589905,
+        3.247049570083618,
+        0.07394025474786758,
+        -0.08452535420656204,
+        0.039944253861904144,
+        -0.016595836728811264
+      ],
+      "state_mean": [
+        -0.0703887939453125,
+        -0.028805598616600037,
+        0.2461077719926834,
+        3.1115846633911133,
+        0.004875091835856438,
+        -0.23910607397556305,
+        0.027088353410363197,
+        -0.027026593685150146
+      ],
+      "state_std": [
+        0.0543673150241375,
+        0.19499599933624268,
+        0.07359962910413742,
+        0.08220665156841278,
+        0.04185452312231064,
+        0.11994645744562149,
+        0.010921381413936615,
+        0.010984855704009533
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.07197953174546408,
+        0.11227961161576425,
+        0.11962949298098381,
+        0.11784087928855828,
+        0.0988973257286044,
+        0.16801930247861374,
+        0.04476488180387669,
+        0.047046158625992415
+      ],
+      "max_abs_joint_velocity": 0.16801930247861374,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 16,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1084.0836852481589,
+          "exposure_score": 0.01953125,
+          "frame_difference": null,
+          "dataset_index": 1156
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1007.2608878575265,
+          "exposure_score": 0.021087646484375,
+          "frame_difference": 28.159765243530273,
+          "dataset_index": 1166
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 762.9128097891808,
+          "exposure_score": 0.0206298828125,
+          "frame_difference": 38.712432861328125,
+          "dataset_index": 1176
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 704.1067912122235,
+          "exposure_score": 0.01898193359375,
+          "frame_difference": 35.151981353759766,
+          "dataset_index": 1186
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 539.2222869060934,
+          "exposure_score": 0.0370941162109375,
+          "frame_difference": 22.90582275390625,
+          "dataset_index": 1196
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 363.0535322984215,
+          "exposure_score": 0.019805908203125,
+          "frame_difference": 28.396677017211914,
+          "dataset_index": 1206
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 365.65167387365364,
+          "exposure_score": 0.00634765625,
+          "frame_difference": 20.33323097229004,
+          "dataset_index": 1216
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 446.73676958470605,
+          "exposure_score": 0.023834228515625,
+          "frame_difference": 18.924489974975586,
+          "dataset_index": 1226
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 670.2777777609881,
+          "exposure_score": 0.0201416015625,
+          "frame_difference": 24.59340476989746,
+          "dataset_index": 1236
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 690.6667508815881,
+          "exposure_score": 0.0113983154296875,
+          "frame_difference": 21.057662963867188,
+          "dataset_index": 1246
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 983.9332936627325,
+          "exposure_score": 0.01092529296875,
+          "frame_difference": 25.553030014038086,
+          "dataset_index": 1256
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 986.9602037628647,
+          "exposure_score": 0.01568603515625,
+          "frame_difference": 29.395309448242188,
+          "dataset_index": 1266
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 833.4739667838439,
+          "exposure_score": 0.0150604248046875,
+          "frame_difference": 28.862136840820312,
+          "dataset_index": 1276
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 892.8023007286247,
+          "exposure_score": 0.0208282470703125,
+          "frame_difference": 23.21697998046875,
+          "dataset_index": 1286
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 864.6165071688592,
+          "exposure_score": 0.026580810546875,
+          "frame_difference": 24.46356201171875,
+          "dataset_index": 1296
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 968.7043968399521,
+          "exposure_score": 0.0315399169921875,
+          "frame_difference": 27.383275985717773,
+          "dataset_index": 1306
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 9,
+    "num_steps": 124,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 124,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14691604673862457,
+        -0.11311812698841095,
+        0.1131027340888977,
+        3.078392505645752,
+        -0.062428392469882965,
+        -0.5483948588371277,
+        0.011429605074226856,
+        -0.039903588593006134
+      ],
+      "state_max": [
+        0.06301706284284592,
+        0.24931423366069794,
+        0.3152625262737274,
+        3.1770966053009033,
+        0.006794017739593983,
+        -0.09480210393667221,
+        0.03984788432717323,
+        -0.01852075196802616
+      ],
+      "state_mean": [
+        0.020935239270329475,
+        0.010845571756362915,
+        0.20657995343208313,
+        3.1119563579559326,
+        -0.037649985402822495,
+        -0.2971700131893158,
+        0.02713725157082081,
+        -0.02897115983068943
+      ],
+      "state_std": [
+        0.06238236278295517,
+        0.13242506980895996,
+        0.06761135160923004,
+        0.02283637411892414,
+        0.023585839197039604,
+        0.13194377720355988,
+        0.01116179209202528,
+        0.009583032689988613
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.10805637793388893,
+        0.1104495940751452,
+        0.1099266388830609,
+        0.06244158767094547,
+        0.08144513089192476,
+        0.18330772330198936,
+        0.048368854337532664,
+        0.040813015580669
+      ],
+      "max_abs_joint_velocity": 0.18330772330198936,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 13,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1111.499288197374,
+          "exposure_score": 0.0162200927734375,
+          "frame_difference": null,
+          "dataset_index": 1308
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1084.2510019801557,
+          "exposure_score": 0.01556396484375,
+          "frame_difference": 19.10516929626465,
+          "dataset_index": 1318
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 717.8444360808935,
+          "exposure_score": 0.0152435302734375,
+          "frame_difference": 43.77215576171875,
+          "dataset_index": 1328
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 605.9062528347131,
+          "exposure_score": 0.0179901123046875,
+          "frame_difference": 39.4015998840332,
+          "dataset_index": 1338
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 550.1509230004158,
+          "exposure_score": 0.017303466796875,
+          "frame_difference": 22.75,
+          "dataset_index": 1348
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 564.2623715808149,
+          "exposure_score": 0.016815185546875,
+          "frame_difference": 14.93743896484375,
+          "dataset_index": 1358
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 543.8723745932803,
+          "exposure_score": 0.0175933837890625,
+          "frame_difference": 17.563980102539062,
+          "dataset_index": 1368
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 546.5292205752339,
+          "exposure_score": 0.02532958984375,
+          "frame_difference": 18.624099731445312,
+          "dataset_index": 1378
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 970.75063405931,
+          "exposure_score": 0.0145263671875,
+          "frame_difference": 31.2784366607666,
+          "dataset_index": 1388
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1053.3222486262675,
+          "exposure_score": 0.0207061767578125,
+          "frame_difference": 27.51043701171875,
+          "dataset_index": 1398
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 959.5769395099487,
+          "exposure_score": 0.020904541015625,
+          "frame_difference": 29.246871948242188,
+          "dataset_index": 1408
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 924.8141014555003,
+          "exposure_score": 0.0345611572265625,
+          "frame_difference": 25.2290096282959,
+          "dataset_index": 1418
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 742.1525592654943,
+          "exposure_score": 0.0483551025390625,
+          "frame_difference": 28.71271324157715,
+          "dataset_index": 1428
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 10,
+    "num_steps": 143,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 143,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14434731006622314,
+        -0.23687323927879333,
+        0.10310389846563339,
+        3.0020480155944824,
+        -0.20032930374145508,
+        -0.6420515179634094,
+        0.028013700619339943,
+        -0.039858099073171616
+      ],
+      "state_max": [
+        0.03637606278061867,
+        0.2990863025188446,
+        0.35848939418792725,
+        3.276496410369873,
+        0.11458159238100052,
+        0.009710059501230717,
+        0.03979027271270752,
+        -0.02509338967502117
+      ],
+      "state_mean": [
+        -0.05572766065597534,
+        -0.004264610819518566,
+        0.23883046209812164,
+        3.1188595294952393,
+        0.03665439411997795,
+        -0.2360965460538864,
+        0.031935758888721466,
+        -0.03014327399432659
+      ],
+      "state_std": [
+        0.056098442524671555,
+        0.204217329621315,
+        0.07747282832860947,
+        0.07743152230978012,
+        0.0693037286400795,
+        0.22260603308677673,
+        0.005232374649494886,
+        0.006620392203330994
+      ],
+      "median_dt": 0.09999993443489075,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.058984887227904535,
+        0.12347084320286675,
+        0.11888247144934792,
+        0.14124645352025367,
+        0.18377468838513403,
+        0.34467715555470785,
+        0.039427206268030424,
+        0.04324443905686738
+      ],
+      "max_abs_joint_velocity": 0.34467715555470785,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 15,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1055.4271934309509,
+          "exposure_score": 0.0097808837890625,
+          "frame_difference": null,
+          "dataset_index": 1432
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 870.3668788587674,
+          "exposure_score": 0.01434326171875,
+          "frame_difference": 32.96626281738281,
+          "dataset_index": 1442
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 825.5194536736235,
+          "exposure_score": 0.0184173583984375,
+          "frame_difference": 36.458797454833984,
+          "dataset_index": 1452
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 586.7995009860024,
+          "exposure_score": 0.0080718994140625,
+          "frame_difference": 29.32550048828125,
+          "dataset_index": 1462
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 518.3813356084283,
+          "exposure_score": 0.0118560791015625,
+          "frame_difference": 23.365148544311523,
+          "dataset_index": 1472
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 353.38637009169906,
+          "exposure_score": 0.0089263916015625,
+          "frame_difference": 29.552270889282227,
+          "dataset_index": 1482
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 474.85292817815207,
+          "exposure_score": 0.0113677978515625,
+          "frame_difference": 16.113571166992188,
+          "dataset_index": 1492
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 593.1135234795511,
+          "exposure_score": 0.0081939697265625,
+          "frame_difference": 18.157445907592773,
+          "dataset_index": 1502
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 781.3183971606195,
+          "exposure_score": 0.012939453125,
+          "frame_difference": 19.733154296875,
+          "dataset_index": 1512
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1001.5253066585865,
+          "exposure_score": 0.0126953125,
+          "frame_difference": 23.9440860748291,
+          "dataset_index": 1522
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 929.4547247902956,
+          "exposure_score": 0.0106048583984375,
+          "frame_difference": 26.269195556640625,
+          "dataset_index": 1532
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 571.3167987978086,
+          "exposure_score": 0.007354736328125,
+          "frame_difference": 22.63620948791504,
+          "dataset_index": 1542
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 544.0355176329613,
+          "exposure_score": 0.019927978515625,
+          "frame_difference": 19.706884384155273,
+          "dataset_index": 1552
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 724.045189605793,
+          "exposure_score": 0.0258331298828125,
+          "frame_difference": 30.150949478149414,
+          "dataset_index": 1562
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 601.4728799627628,
+          "exposure_score": 0.0349884033203125,
+          "frame_difference": 41.05453872680664,
+          "dataset_index": 1572
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 11,
+    "num_steps": 164,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 164,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14335013926029205,
+        -0.2536853849887848,
+        0.04283963516354561,
+        3.077441930770874,
+        -0.587637722492218,
+        -0.2827770709991455,
+        0.02382364124059677,
+        -0.03995873034000397
+      ],
+      "state_max": [
+        -0.028798367828130722,
+        0.2717737555503845,
+        0.3382335603237152,
+        3.210221529006958,
+        0.10518509149551392,
+        0.20235387980937958,
+        0.039866071194410324,
+        -0.032285403460264206
+      ],
+      "state_mean": [
+        -0.09574288129806519,
+        -0.03329918906092644,
+        0.22032877802848816,
+        3.1430165767669678,
+        -0.1457308977842331,
+        -0.09132584929466248,
+        0.030996736139059067,
+        -0.03715198487043381
+      ],
+      "state_std": [
+        0.03756778687238693,
+        0.19975648820400238,
+        0.0807596743106842,
+        0.03762003779411316,
+        0.21736401319503784,
+        0.13391026854515076,
+        0.007368439342826605,
+        0.0021719313226640224
+      ],
+      "median_dt": 0.09999999403953552,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.0777530666618983,
+        0.11113609541520635,
+        0.1264199330043154,
+        0.14349882698506553,
+        0.20431099020570873,
+        0.3425102281180263,
+        0.04493780994444842,
+        0.02190752911079746
+      ],
+      "max_abs_joint_velocity": 0.3425102281180263,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 17,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1060.1320808061864,
+          "exposure_score": 0.023040771484375,
+          "frame_difference": null,
+          "dataset_index": 1575
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1087.719068404287,
+          "exposure_score": 0.0249481201171875,
+          "frame_difference": 23.56437110900879,
+          "dataset_index": 1585
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 850.0527291761246,
+          "exposure_score": 0.022308349609375,
+          "frame_difference": 41.342899322509766,
+          "dataset_index": 1595
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 690.7946506885346,
+          "exposure_score": 0.0220794677734375,
+          "frame_difference": 39.0679817199707,
+          "dataset_index": 1605
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 549.9405412077904,
+          "exposure_score": 0.018280029296875,
+          "frame_difference": 35.21757125854492,
+          "dataset_index": 1615
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 450.83456169068813,
+          "exposure_score": 0.0195159912109375,
+          "frame_difference": 21.06278419494629,
+          "dataset_index": 1625
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 299.7221976404544,
+          "exposure_score": 0.0028076171875,
+          "frame_difference": 31.725866317749023,
+          "dataset_index": 1635
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 283.65318676736206,
+          "exposure_score": 0.002777099609375,
+          "frame_difference": 11.007426261901855,
+          "dataset_index": 1645
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 469.31772562279366,
+          "exposure_score": 0.0120086669921875,
+          "frame_difference": 15.892242431640625,
+          "dataset_index": 1655
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 640.4309077924117,
+          "exposure_score": 0.0198822021484375,
+          "frame_difference": 19.263254165649414,
+          "dataset_index": 1665
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 996.0352262109518,
+          "exposure_score": 0.018951416015625,
+          "frame_difference": 21.2149715423584,
+          "dataset_index": 1675
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1128.7451621217187,
+          "exposure_score": 0.0216827392578125,
+          "frame_difference": 30.922897338867188,
+          "dataset_index": 1685
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1002.8689073731657,
+          "exposure_score": 0.0174102783203125,
+          "frame_difference": 34.889373779296875,
+          "dataset_index": 1695
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 893.916096551111,
+          "exposure_score": 0.0211334228515625,
+          "frame_difference": 33.984745025634766,
+          "dataset_index": 1705
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 827.7955033779144,
+          "exposure_score": 0.0428924560546875,
+          "frame_difference": 29.20686912536621,
+          "dataset_index": 1715
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 904.9513985326048,
+          "exposure_score": 0.0482940673828125,
+          "frame_difference": 33.44142150878906,
+          "dataset_index": 1725
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1066.312484677881,
+          "exposure_score": 0.0485382080078125,
+          "frame_difference": 43.40373229980469,
+          "dataset_index": 1735
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 12,
+    "num_steps": 152,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 152,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.13430573046207428,
+        -0.26018083095550537,
+        0.008128180168569088,
+        3.040585994720459,
+        -0.16930203139781952,
+        -0.2536015212535858,
+        0.016626061871647835,
+        -0.041178200393915176
+      ],
+      "state_max": [
+        -0.002030142117291689,
+        0.2979852259159088,
+        0.3183324635028839,
+        3.216491937637329,
+        0.12699449062347412,
+        0.15119919180870056,
+        0.039821233600378036,
+        -0.01933382637798786
+      ],
+      "state_mean": [
+        -0.05760125815868378,
+        -0.022669021040201187,
+        0.19405369460582733,
+        3.1286919116973877,
+        -0.077606700360775,
+        -0.06617575883865356,
+        0.02725461684167385,
+        -0.027933446690440178
+      ],
+      "state_std": [
+        0.04097580537199974,
+        0.213898703455925,
+        0.09750312566757202,
+        0.04160194471478462,
+        0.09149424731731415,
+        0.09684546291828156,
+        0.009580113925039768,
+        0.009581021964550018
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.07983527425184535,
+        0.11805606053923118,
+        0.1344769985456453,
+        0.15049471902343656,
+        0.171113255545595,
+        0.2812874764561429,
+        0.08270537917530935,
+        0.07124129026297595
+      ],
+      "max_abs_joint_velocity": 0.2812874764561429,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 16,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1118.8197029714938,
+          "exposure_score": 0.0171356201171875,
+          "frame_difference": null,
+          "dataset_index": 1739
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 798.6809711975511,
+          "exposure_score": 0.024261474609375,
+          "frame_difference": 39.23411560058594,
+          "dataset_index": 1749
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 673.0589967889246,
+          "exposure_score": 0.0127105712890625,
+          "frame_difference": 31.737319946289062,
+          "dataset_index": 1759
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 572.4398373216391,
+          "exposure_score": 0.0123748779296875,
+          "frame_difference": 29.05535316467285,
+          "dataset_index": 1769
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 305.5515671633184,
+          "exposure_score": 0.0025787353515625,
+          "frame_difference": 24.704742431640625,
+          "dataset_index": 1779
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 291.83021377190016,
+          "exposure_score": 0.0010986328125,
+          "frame_difference": 17.2449893951416,
+          "dataset_index": 1789
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 265.5182938349899,
+          "exposure_score": 0.0017547607421875,
+          "frame_difference": 18.224609375,
+          "dataset_index": 1799
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 633.0386036445852,
+          "exposure_score": 0.0105438232421875,
+          "frame_difference": 21.292724609375,
+          "dataset_index": 1809
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 769.5740525266156,
+          "exposure_score": 0.016937255859375,
+          "frame_difference": 27.917068481445312,
+          "dataset_index": 1819
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1015.742562165251,
+          "exposure_score": 0.0095977783203125,
+          "frame_difference": 28.865997314453125,
+          "dataset_index": 1829
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1075.428562441608,
+          "exposure_score": 0.0151214599609375,
+          "frame_difference": 29.17685890197754,
+          "dataset_index": 1839
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 874.9734969881829,
+          "exposure_score": 0.0189056396484375,
+          "frame_difference": 31.884328842163086,
+          "dataset_index": 1849
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 710.2009001427796,
+          "exposure_score": 0.0237274169921875,
+          "frame_difference": 29.25594139099121,
+          "dataset_index": 1859
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 695.3115476553794,
+          "exposure_score": 0.036529541015625,
+          "frame_difference": 31.883447647094727,
+          "dataset_index": 1869
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 693.8065316341817,
+          "exposure_score": 0.034637451171875,
+          "frame_difference": 29.193008422851562,
+          "dataset_index": 1879
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 808.9707488899585,
+          "exposure_score": 0.0295867919921875,
+          "frame_difference": 44.150543212890625,
+          "dataset_index": 1889
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 13,
+    "num_steps": 151,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 151,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14114224910736084,
+        -0.25293484330177307,
+        0.11269623041152954,
+        3.0937533378601074,
+        -0.036754101514816284,
+        -0.31325557827949524,
+        0.016040120273828506,
+        -0.03986905515193939
+      ],
+      "state_max": [
+        0.023285921663045883,
+        0.25097402930259705,
+        0.3067803382873535,
+        3.217082977294922,
+        0.24164146184921265,
+        -0.01889222487807274,
+        0.039931703358888626,
+        -0.01661357842385769
+      ],
+      "state_mean": [
+        -0.0686061903834343,
+        -0.04916556924581528,
+        0.2254457026720047,
+        3.161539316177368,
+        0.08086037635803223,
+        -0.11611200869083405,
+        0.027366260066628456,
+        -0.02747899480164051
+      ],
+      "state_std": [
+        0.05211012810468674,
+        0.18839409947395325,
+        0.06418272852897644,
+        0.03210771456360817,
+        0.11236154288053513,
+        0.08695162832736969,
+        0.011017775163054466,
+        0.010951055213809013
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.05744006924841214,
+        0.11354850130652883,
+        0.10830621319409675,
+        0.06094692684485272,
+        0.11280832169049276,
+        0.15933336591739225,
+        0.04712932581121999,
+        0.044871834990344035
+      ],
+      "max_abs_joint_velocity": 0.15933336591739225,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 16,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1174.3239906278905,
+          "exposure_score": 0.0181121826171875,
+          "frame_difference": null,
+          "dataset_index": 1891
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1034.2771579807159,
+          "exposure_score": 0.0188140869140625,
+          "frame_difference": 37.39959716796875,
+          "dataset_index": 1901
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 789.7947082510218,
+          "exposure_score": 0.0166473388671875,
+          "frame_difference": 36.25265121459961,
+          "dataset_index": 1911
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 701.5920793318655,
+          "exposure_score": 0.0218505859375,
+          "frame_difference": 31.0433349609375,
+          "dataset_index": 1921
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 513.7035502435174,
+          "exposure_score": 0.0424652099609375,
+          "frame_difference": 22.628707885742188,
+          "dataset_index": 1931
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 386.8623182317242,
+          "exposure_score": 0.0218963623046875,
+          "frame_difference": 24.05704689025879,
+          "dataset_index": 1941
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 348.21511605917476,
+          "exposure_score": 0.0131683349609375,
+          "frame_difference": 16.36753273010254,
+          "dataset_index": 1951
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 370.9911012572702,
+          "exposure_score": 0.0215911865234375,
+          "frame_difference": 16.749013900756836,
+          "dataset_index": 1961
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 635.4542325527873,
+          "exposure_score": 0.0226287841796875,
+          "frame_difference": 23.50827980041504,
+          "dataset_index": 1971
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 917.8540953984484,
+          "exposure_score": 0.011260986328125,
+          "frame_difference": 26.7706241607666,
+          "dataset_index": 1981
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1034.6832576459274,
+          "exposure_score": 0.009765625,
+          "frame_difference": 29.720199584960938,
+          "dataset_index": 1991
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 889.761687487131,
+          "exposure_score": 0.014617919921875,
+          "frame_difference": 28.738906860351562,
+          "dataset_index": 2001
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 780.3295015757903,
+          "exposure_score": 0.0120849609375,
+          "frame_difference": 25.487951278686523,
+          "dataset_index": 2011
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 880.2601748460438,
+          "exposure_score": 0.0358428955078125,
+          "frame_difference": 33.24746322631836,
+          "dataset_index": 2021
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 975.6971736764535,
+          "exposure_score": 0.03277587890625,
+          "frame_difference": 30.253625869750977,
+          "dataset_index": 2031
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 921.339750780724,
+          "exposure_score": 0.03497314453125,
+          "frame_difference": 18.461645126342773,
+          "dataset_index": 2041
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 14,
+    "num_steps": 132,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 132,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.14991922676563263,
+        -0.11656125634908676,
+        0.047628019005060196,
+        2.76579213142395,
+        -1.268216609954834,
+        -0.23094169795513153,
+        0.03003104031085968,
+        -0.0398859940469265
+      ],
+      "state_max": [
+        0.11504463851451874,
+        0.23103095591068268,
+        0.25663527846336365,
+        3.1402809619903564,
+        -0.0002280442713527009,
+        0.33130505681037903,
+        0.039906375110149384,
+        -0.032931942492723465
+      ],
+      "state_mean": [
+        0.01375315897166729,
+        0.02072439342737198,
+        0.1708846539258957,
+        2.9663584232330322,
+        -0.8753864169120789,
+        0.07023503631353378,
+        0.03504911810159683,
+        -0.03633794188499451
+      ],
+      "state_std": [
+        0.0663139596581459,
+        0.13221371173858643,
+        0.05839923396706581,
+        0.1253233402967453,
+        0.42677468061447144,
+        0.19395731389522552,
+        0.004374673590064049,
+        0.0031263092532753944
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.10499012947317851,
+        0.11302411281804917,
+        0.09844610542879623,
+        0.16862804936199433,
+        0.26523764394535443,
+        0.374402909901533,
+        0.03367753890976368,
+        0.034008008151500124
+      ],
+      "max_abs_joint_velocity": 0.374402909901533,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 14,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1100.7174849277362,
+          "exposure_score": 0.0207061767578125,
+          "frame_difference": null,
+          "dataset_index": 2042
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1156.7426251685247,
+          "exposure_score": 0.0196380615234375,
+          "frame_difference": 37.6961784362793,
+          "dataset_index": 2052
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 816.083340899786,
+          "exposure_score": 0.00921630859375,
+          "frame_difference": 42.97823715209961,
+          "dataset_index": 2062
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 737.9430937170982,
+          "exposure_score": 0.0107269287109375,
+          "frame_difference": 37.56198501586914,
+          "dataset_index": 2072
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 663.595417653909,
+          "exposure_score": 0.0125885009765625,
+          "frame_difference": 28.8104190826416,
+          "dataset_index": 2082
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 541.3778127057012,
+          "exposure_score": 0.0188140869140625,
+          "frame_difference": 28.299352645874023,
+          "dataset_index": 2092
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 437.6318772153463,
+          "exposure_score": 0.01116943359375,
+          "frame_difference": 44.74936294555664,
+          "dataset_index": 2102
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 642.1155396343675,
+          "exposure_score": 0.0111083984375,
+          "frame_difference": 27.303756713867188,
+          "dataset_index": 2112
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 815.7769147818908,
+          "exposure_score": 0.0103759765625,
+          "frame_difference": 26.297454833984375,
+          "dataset_index": 2122
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 710.0894147818908,
+          "exposure_score": 0.0084075927734375,
+          "frame_difference": 23.039993286132812,
+          "dataset_index": 2132
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 762.7185929780826,
+          "exposure_score": 0.0150299072265625,
+          "frame_difference": 23.19327735900879,
+          "dataset_index": 2142
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 894.3089120832738,
+          "exposure_score": 0.0279083251953125,
+          "frame_difference": 34.18461608886719,
+          "dataset_index": 2152
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 834.8400763922837,
+          "exposure_score": 0.0402679443359375,
+          "frame_difference": 34.01011276245117,
+          "dataset_index": 2162
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 957.8180174194276,
+          "exposure_score": 0.031585693359375,
+          "frame_difference": 36.42539978027344,
+          "dataset_index": 2172
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 15,
+    "num_steps": 115,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 115,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.1497880518436432,
+        -0.10157665610313416,
+        0.11173879355192184,
+        3.1221179962158203,
+        -0.06479954719543457,
+        -0.23393504321575165,
+        0.018775491043925285,
+        -0.03977575898170471
+      ],
+      "state_max": [
+        0.06549640744924545,
+        0.27901336550712585,
+        0.3143835961818695,
+        3.152005910873413,
+        0.030335159972310066,
+        0.07781149446964264,
+        0.039744820445775986,
+        -0.011606929823756218
+      ],
+      "state_mean": [
+        0.0012565330835059285,
+        0.03728654235601425,
+        0.22110101580619812,
+        3.135991096496582,
+        -0.018685681745409966,
+        -0.02370750531554222,
+        0.027593782171607018,
+        -0.024164332076907158
+      ],
+      "state_std": [
+        0.05342401936650276,
+        0.14404550194740295,
+        0.06520871073007584,
+        0.007473792415112257,
+        0.03098277933895588,
+        0.07058116793632507,
+        0.008767015300691128,
+        0.011295321397483349
+      ],
+      "median_dt": 0.09999990463256836,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.11522431904689812,
+        0.10811079030689122,
+        0.11489685406384856,
+        0.036556581281351926,
+        0.1259073741500329,
+        0.16500362547326358,
+        0.04136568154996066,
+        0.048382060441263426
+      ],
+      "max_abs_joint_velocity": 0.16500362547326358,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 12,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1121.5813575626817,
+          "exposure_score": 0.016387939453125,
+          "frame_difference": null,
+          "dataset_index": 2174
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 873.7473914539441,
+          "exposure_score": 0.020355224609375,
+          "frame_difference": 40.33867263793945,
+          "dataset_index": 2184
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 587.0774685607757,
+          "exposure_score": 0.0099334716796875,
+          "frame_difference": 38.65191650390625,
+          "dataset_index": 2194
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 496.65415655076504,
+          "exposure_score": 0.0189361572265625,
+          "frame_difference": 29.403656005859375,
+          "dataset_index": 2204
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 515.7794490121305,
+          "exposure_score": 0.0192413330078125,
+          "frame_difference": 22.066375732421875,
+          "dataset_index": 2214
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 531.7207574711647,
+          "exposure_score": 0.023223876953125,
+          "frame_difference": 18.682205200195312,
+          "dataset_index": 2224
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 672.6546972838696,
+          "exposure_score": 0.010833740234375,
+          "frame_difference": 21.172988891601562,
+          "dataset_index": 2234
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1018.6911122200545,
+          "exposure_score": 0.0113677978515625,
+          "frame_difference": 26.60164451599121,
+          "dataset_index": 2244
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 909.5203098112252,
+          "exposure_score": 0.01690673828125,
+          "frame_difference": 26.965362548828125,
+          "dataset_index": 2254
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 905.7831768393517,
+          "exposure_score": 0.017578125,
+          "frame_difference": 30.037622451782227,
+          "dataset_index": 2264
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 884.1329278415069,
+          "exposure_score": 0.0327301025390625,
+          "frame_difference": 32.65852355957031,
+          "dataset_index": 2274
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 788.1701923599467,
+          "exposure_score": 0.0498504638671875,
+          "frame_difference": 52.22749328613281,
+          "dataset_index": 2284
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 16,
+    "num_steps": 162,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 162,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.13882899284362793,
+        -0.2561780512332916,
+        0.009527191519737244,
+        3.10520601272583,
+        -0.36215758323669434,
+        -0.34653136134147644,
+        0.022391250357031822,
+        -0.040492914617061615
+      ],
+      "state_max": [
+        -0.01405961625277996,
+        0.27229857444763184,
+        0.2977997958660126,
+        3.1574106216430664,
+        0.0026071288157254457,
+        -0.09045326709747314,
+        0.039884842932224274,
+        -0.02306959219276905
+      ],
+      "state_mean": [
+        -0.08476541936397552,
+        -0.048146042972803116,
+        0.20474494993686676,
+        3.1368672847747803,
+        -0.16666020452976227,
+        -0.21217642724514008,
+        0.029956020414829254,
+        -0.030600586906075478
+      ],
+      "state_std": [
+        0.039471883326768875,
+        0.19975848495960236,
+        0.08863147348165512,
+        0.014000858180224895,
+        0.09258180856704712,
+        0.07483161985874176,
+        0.008101316168904305,
+        0.00793763343244791
+      ],
+      "median_dt": 0.09999999403953552,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.04101697541902105,
+        0.10866004501325602,
+        0.1237114208568772,
+        0.049321463312289,
+        0.22719956250149012,
+        0.18363789494263616,
+        0.036824801159663544,
+        0.05363897879264717
+      ],
+      "max_abs_joint_velocity": 0.22719956250149012,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 17,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1092.3211001937743,
+          "exposure_score": 0.0227203369140625,
+          "frame_difference": null,
+          "dataset_index": 2289
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 886.6507183627691,
+          "exposure_score": 0.0269622802734375,
+          "frame_difference": 39.52629470825195,
+          "dataset_index": 2299
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 826.0077020963654,
+          "exposure_score": 0.0287628173828125,
+          "frame_difference": 39.9399299621582,
+          "dataset_index": 2309
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 704.3469035380986,
+          "exposure_score": 0.0291900634765625,
+          "frame_difference": 35.716670989990234,
+          "dataset_index": 2319
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 574.5830382173881,
+          "exposure_score": 0.0460662841796875,
+          "frame_difference": 23.19797706604004,
+          "dataset_index": 2329
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 357.73093424737453,
+          "exposure_score": 0.0082550048828125,
+          "frame_difference": 26.9266357421875,
+          "dataset_index": 2339
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 298.78747517522424,
+          "exposure_score": 0.0125274658203125,
+          "frame_difference": 15.056971549987793,
+          "dataset_index": 2349
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 264.7940348945558,
+          "exposure_score": 0.0129852294921875,
+          "frame_difference": 15.519200325012207,
+          "dataset_index": 2359
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 420.9827308272943,
+          "exposure_score": 0.023895263671875,
+          "frame_difference": 16.412160873413086,
+          "dataset_index": 2369
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 653.4604200720787,
+          "exposure_score": 0.03955078125,
+          "frame_difference": 26.68792152404785,
+          "dataset_index": 2379
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 842.707341514295,
+          "exposure_score": 0.02874755859375,
+          "frame_difference": 28.735855102539062,
+          "dataset_index": 2389
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1140.8669473116752,
+          "exposure_score": 0.027557373046875,
+          "frame_difference": 36.95005798339844,
+          "dataset_index": 2399
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 908.4704462082591,
+          "exposure_score": 0.0261688232421875,
+          "frame_difference": 39.641963958740234,
+          "dataset_index": 2409
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 880.6627493982669,
+          "exposure_score": 0.0251312255859375,
+          "frame_difference": 34.6026496887207,
+          "dataset_index": 2419
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 782.1933936139103,
+          "exposure_score": 0.0378265380859375,
+          "frame_difference": 26.28021240234375,
+          "dataset_index": 2429
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 864.4165322780609,
+          "exposure_score": 0.0431060791015625,
+          "frame_difference": 32.96488952636719,
+          "dataset_index": 2439
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 842.8754603823181,
+          "exposure_score": 0.0344390869140625,
+          "frame_difference": 30.681753158569336,
+          "dataset_index": 2449
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 17,
+    "num_steps": 161,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 161,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.1382109820842743,
+        -0.11517404764890671,
+        0.059655241668224335,
+        3.0499751567840576,
+        -0.37557119131088257,
+        -0.29513266682624817,
+        0.0011849214788526297,
+        -0.03986603021621704
+      ],
+      "state_max": [
+        0.05835200846195221,
+        0.2737428843975067,
+        0.27404695749282837,
+        3.155789375305176,
+        -0.0019730348140001297,
+        0.09337679296731949,
+        0.03985055163502693,
+        -0.0011648741783574224
+      ],
+      "state_mean": [
+        -0.00944171380251646,
+        -0.007391318213194609,
+        0.16610223054885864,
+        3.1008222103118896,
+        -0.17176267504692078,
+        -0.11363698542118073,
+        0.026753218844532967,
+        -0.025288034230470657
+      ],
+      "state_std": [
+        0.047998540103435516,
+        0.13275189697742462,
+        0.07182720303535461,
+        0.03484487161040306,
+        0.08016886562108994,
+        0.1014237254858017,
+        0.011057788506150246,
+        0.012065749615430832
+      ],
+      "median_dt": 0.09999997913837433,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.0922123122901172,
+        0.10508906986114555,
+        0.10776582974117378,
+        0.08281477242924921,
+        0.18215556991359744,
+        0.3130504840474737,
+        0.049106451016856206,
+        0.04907813878358725
+      ],
+      "max_abs_joint_velocity": 0.3130504840474737,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 17,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1160.9032437072601,
+          "exposure_score": 0.019378662109375,
+          "frame_difference": null,
+          "dataset_index": 2451
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1057.5746688691434,
+          "exposure_score": 0.021575927734375,
+          "frame_difference": 32.239986419677734,
+          "dataset_index": 2461
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 716.2205721996725,
+          "exposure_score": 0.0142822265625,
+          "frame_difference": 39.71513748168945,
+          "dataset_index": 2471
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 611.6584454169497,
+          "exposure_score": 0.0126495361328125,
+          "frame_difference": 33.07767105102539,
+          "dataset_index": 2481
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 555.9893693157937,
+          "exposure_score": 0.0181732177734375,
+          "frame_difference": 22.414505004882812,
+          "dataset_index": 2491
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 450.1006310095545,
+          "exposure_score": 0.012603759765625,
+          "frame_difference": 41.88429260253906,
+          "dataset_index": 2501
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 433.91311643179506,
+          "exposure_score": 0.01123046875,
+          "frame_difference": 23.0275936126709,
+          "dataset_index": 2511
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 561.7222591852769,
+          "exposure_score": 0.01300048828125,
+          "frame_difference": 25.549081802368164,
+          "dataset_index": 2521
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 488.2318915389478,
+          "exposure_score": 0.0149078369140625,
+          "frame_difference": 25.0229434967041,
+          "dataset_index": 2531
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 415.17614785488695,
+          "exposure_score": 0.0144500732421875,
+          "frame_difference": 16.874414443969727,
+          "dataset_index": 2541
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 513.7613600005861,
+          "exposure_score": 0.0244903564453125,
+          "frame_difference": 17.840408325195312,
+          "dataset_index": 2551
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 710.3635861538351,
+          "exposure_score": 0.0316009521484375,
+          "frame_difference": 29.32350730895996,
+          "dataset_index": 2561
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 998.7148910425603,
+          "exposure_score": 0.0186767578125,
+          "frame_difference": 35.29119873046875,
+          "dataset_index": 2571
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 851.7604279359803,
+          "exposure_score": 0.0277252197265625,
+          "frame_difference": 35.27085494995117,
+          "dataset_index": 2581
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 984.9547110758722,
+          "exposure_score": 0.0333709716796875,
+          "frame_difference": 41.8659782409668,
+          "dataset_index": 2591
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 943.4696494021919,
+          "exposure_score": 0.03485107421875,
+          "frame_difference": 54.605594635009766,
+          "dataset_index": 2601
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1028.8512485919055,
+          "exposure_score": 0.050079345703125,
+          "frame_difference": 42.19559097290039,
+          "dataset_index": 2611
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 18,
+    "num_steps": 153,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 153,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.15279734134674072,
+        -0.2479335218667984,
+        0.0435044951736927,
+        3.0376179218292236,
+        -0.2761322557926178,
+        -0.11780097335577011,
+        0.029520289972424507,
+        -0.0398871935904026
+      ],
+      "state_max": [
+        0.027820641174912453,
+        0.2692066431045532,
+        0.3040221631526947,
+        3.1721184253692627,
+        0.3484099507331848,
+        0.20698170363903046,
+        0.03985927626490593,
+        -0.032597269862890244
+      ],
+      "state_mean": [
+        -0.07459059357643127,
+        -0.03034593164920807,
+        0.20578493177890778,
+        3.10642147064209,
+        0.04822271317243576,
+        -0.013103374280035496,
+        0.03358437865972519,
+        -0.03546043485403061
+      ],
+      "state_std": [
+        0.05145670473575592,
+        0.20155659317970276,
+        0.07856814563274384,
+        0.041481923311948776,
+        0.1752978265285492,
+        0.09579214453697205,
+        0.004700633231550455,
+        0.003261004341766238
+      ],
+      "median_dt": 0.09999996423721313,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.07889091676362318,
+        0.10376006132160943,
+        0.12628746155496745,
+        0.058436170821491926,
+        0.20750383852448073,
+        0.20780816373728028,
+        0.04085309974250769,
+        0.03380058477893914
+      ],
+      "max_abs_joint_velocity": 0.20780816373728028,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 16,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 972.6928910331335,
+          "exposure_score": 0.0255126953125,
+          "frame_difference": null,
+          "dataset_index": 2612
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 830.3332119546831,
+          "exposure_score": 0.0286407470703125,
+          "frame_difference": 35.71938705444336,
+          "dataset_index": 2622
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 785.2177865765989,
+          "exposure_score": 0.019317626953125,
+          "frame_difference": 35.15755081176758,
+          "dataset_index": 2632
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 623.942519971868,
+          "exposure_score": 0.0194549560546875,
+          "frame_difference": 34.8394660949707,
+          "dataset_index": 2642
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 471.8258321285248,
+          "exposure_score": 0.0241546630859375,
+          "frame_difference": 24.496267318725586,
+          "dataset_index": 2652
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 282.8583068912849,
+          "exposure_score": 0.0020904541015625,
+          "frame_difference": 34.06179428100586,
+          "dataset_index": 2662
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 298.45893837488256,
+          "exposure_score": 0.00225830078125,
+          "frame_difference": 11.12847900390625,
+          "dataset_index": 2672
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 567.5380205959082,
+          "exposure_score": 0.028076171875,
+          "frame_difference": 20.248987197875977,
+          "dataset_index": 2682
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 773.3226622780785,
+          "exposure_score": 0.0231475830078125,
+          "frame_difference": 29.39347267150879,
+          "dataset_index": 2692
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1021.2334548672661,
+          "exposure_score": 0.0164337158203125,
+          "frame_difference": 29.851186752319336,
+          "dataset_index": 2702
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1074.2275506833103,
+          "exposure_score": 0.0167236328125,
+          "frame_difference": 32.50843811035156,
+          "dataset_index": 2712
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 807.5804859919008,
+          "exposure_score": 0.0125885009765625,
+          "frame_difference": 30.870275497436523,
+          "dataset_index": 2722
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 569.7729919999838,
+          "exposure_score": 0.0183258056640625,
+          "frame_difference": 25.604665756225586,
+          "dataset_index": 2732
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 674.3527541959193,
+          "exposure_score": 0.0425872802734375,
+          "frame_difference": 36.082820892333984,
+          "dataset_index": 2742
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 746.1557997667696,
+          "exposure_score": 0.036102294921875,
+          "frame_difference": 45.12534713745117,
+          "dataset_index": 2752
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 871.8212877875194,
+          "exposure_score": 0.03692626953125,
+          "frame_difference": 45.67911148071289,
+          "dataset_index": 2762
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  },
+  {
+    "episode_id": 19,
+    "num_steps": 161,
+    "state_key": "observation.state",
+    "action_key": "action",
+    "timestamp_key": "timestamp",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.wrist_image"
+    ],
+    "wrist_image_key": "observation.images.wrist_image",
+    "joint_report": {
+      "num_steps": 161,
+      "state_dim": 8,
+      "has_nan_or_inf": false,
+      "state_min": [
+        -0.15046827495098114,
+        -0.27063465118408203,
+        0.010235731489956379,
+        3.004950761795044,
+        -0.3270249664783478,
+        -0.39813393354415894,
+        0.020423633977770805,
+        -0.04004218801856041
+      ],
+      "state_max": [
+        -0.023740503937005997,
+        0.2996193468570709,
+        0.30990853905677795,
+        3.180527448654175,
+        0.03709442913532257,
+        0.27524295449256897,
+        0.039825599640607834,
+        -0.024323590099811554
+      ],
+      "state_mean": [
+        -0.07614395022392273,
+        -0.03197814151644707,
+        0.20328594744205475,
+        3.093102216720581,
+        -0.11823439598083496,
+        -0.028900446370244026,
+        0.02809126116335392,
+        -0.030359895899891853
+      ],
+      "state_std": [
+        0.04008904844522476,
+        0.21177315711975098,
+        0.08605416864156723,
+        0.046946339309215546,
+        0.09847726672887802,
+        0.17988044023513794,
+        0.008448200300335884,
+        0.007162909023463726
+      ],
+      "median_dt": 0.09999997913837433,
+      "max_dt": 0.10000038146972656,
+      "num_timestamp_gaps": 0,
+      "max_abs_joint_velocity_per_dim": [
+        0.06402602937319696,
+        0.10616671772778424,
+        0.12119932432432433,
+        0.11940490665903726,
+        0.1654589383678403,
+        0.3767638809747468,
+        0.05635590214862004,
+        0.052089480068187775
+      ],
+      "max_abs_joint_velocity": 0.3767638809747468,
+      "has_velocity_spike": false
+    },
+    "egocentric_video_report": {
+      "available": true,
+      "image_key": "observation.images.wrist_image",
+      "num_sampled_frames": 17,
+      "num_bad_frames": 0,
+      "bad_frame_ratio": 0.0,
+      "frame_reports": [
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1072.8857970105018,
+          "exposure_score": 0.02288818359375,
+          "frame_difference": null,
+          "dataset_index": 2765
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 817.6450454853475,
+          "exposure_score": 0.0266571044921875,
+          "frame_difference": 41.66410827636719,
+          "dataset_index": 2775
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 783.1523924432695,
+          "exposure_score": 0.0280609130859375,
+          "frame_difference": 37.20794677734375,
+          "dataset_index": 2785
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 605.4822480520234,
+          "exposure_score": 0.0408172607421875,
+          "frame_difference": 33.67012023925781,
+          "dataset_index": 2795
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 439.49765652325004,
+          "exposure_score": 0.02105712890625,
+          "frame_difference": 25.426061630249023,
+          "dataset_index": 2805
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 373.37777838273905,
+          "exposure_score": 0.0023345947265625,
+          "frame_difference": 30.905710220336914,
+          "dataset_index": 2815
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 351.3700799411163,
+          "exposure_score": 0.0034637451171875,
+          "frame_difference": 24.448760986328125,
+          "dataset_index": 2825
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 596.2124293947127,
+          "exposure_score": 0.039520263671875,
+          "frame_difference": 22.985937118530273,
+          "dataset_index": 2835
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 713.3080310074147,
+          "exposure_score": 0.021087646484375,
+          "frame_difference": 23.893936157226562,
+          "dataset_index": 2845
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 830.5062385627534,
+          "exposure_score": 0.023895263671875,
+          "frame_difference": 30.656112670898438,
+          "dataset_index": 2855
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1071.4084150455892,
+          "exposure_score": 0.01080322265625,
+          "frame_difference": 33.67045211791992,
+          "dataset_index": 2865
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 950.5132896488067,
+          "exposure_score": 0.0122222900390625,
+          "frame_difference": 31.12847328186035,
+          "dataset_index": 2875
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 850.6098346561193,
+          "exposure_score": 0.0132293701171875,
+          "frame_difference": 26.29475975036621,
+          "dataset_index": 2885
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 743.8071441629436,
+          "exposure_score": 0.02593994140625,
+          "frame_difference": 32.33952713012695,
+          "dataset_index": 2895
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 951.4198970710859,
+          "exposure_score": 0.018890380859375,
+          "frame_difference": 62.96527099609375,
+          "dataset_index": 2905
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 1158.8141075333115,
+          "exposure_score": 0.0527496337890625,
+          "frame_difference": 63.594661712646484,
+          "dataset_index": 2915
+        },
+        {
+          "valid": true,
+          "reasons": [],
+          "blur_score": 982.1826412891969,
+          "exposure_score": 0.041046142578125,
+          "frame_difference": 41.26005554199219,
+          "dataset_index": 2925
+        }
+      ]
+    },
+    "keep_candidate": true,
+    "filter_reasons": []
+  }
+]
